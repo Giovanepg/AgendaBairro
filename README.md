@@ -1,120 +1,126 @@
-# 📅 AgendaBairro — Agendamentos sem dor de cabeça  
+# 📅 AgendaBairro — Agendamentos sem dor de cabeça
 
-Um sistema completo (web e mobile) para **gestão de agendamentos em clínicas**, desenvolvido com foco em **reduzir o no-show**, **otimizar a rotina da recepção** e **melhorar a experiência do paciente**.
-
----
-
-## 🎓 Trabalho Acadêmico  
-Este projeto foi desenvolvido como parte da avaliação da disciplina **Análise e Projeto de Software**, do curso de **Sistemas de Informação** da **Universidade Santo Agostinho (UNIFSA)** — Teresina/PI.  
-
-📘 **Professor:** Prof. Anderson Soares  
-👨‍💻 **Autor:** Giovane Ferreira Paes Ribeiro  
+Sistema **web e mobile** para **gestão de agendamentos em clínicas**, desenvolvido para **reduzir o no-show**, **otimizar a rotina da recepção** e **melhorar a experiência do paciente**.
 
 ---
 
-## 🎯 Objetivo do Sistema  
-O **AgendaBairro** surgiu para resolver problemas reais enfrentados por clínicas de bairro:  
+## 🎓 Trabalho Acadêmico
 
-- 📉 **Reduzir o no-show:** evitar horários vagos devido a faltas de pacientes.  
-- ⚡ **Agilizar o atendimento:** menos trabalho manual e mais eficiência operacional.  
-- 📊 **Tomar decisões baseadas em dados:** visão clara sobre ocupação, receita e gargalos da clínica.  
+Desenvolvido como parte da disciplina **Análise e Projeto de Software** do curso de **Sistemas de Informação** da **Universidade Santo Agostinho (UNIFSA)** — Teresina/PI.
 
----
-
-## 🚀 Funcionalidades Principais  
-
-O sistema cobre toda a jornada de um agendamento — **da marcação ao pós-consulta**.  
-Alguns dos recursos planejados incluem:  
-
-1. Agendamento online de consultas.  
-2. Pré-check-in digital para pacientes.  
-3. Controle de agenda para profissionais.  
-4. Histórico de consultas e prontuários.  
-5. Emissão de atestados e prescrições digitais.  
-6. Registro e controle de pagamentos.  
-7. Lembretes automáticos de consultas.  
-8. Geração de relatórios administrativos.  
+- **Professor:** Prof. Anderson Soares  
+- **Autor:** Giovane Ferreira Paes Ribeiro
 
 ---
 
-## 🏗️ Documentação Completa  
+## 🎯 Objetivo do Sistema
 
-Para uma análise detalhada da **arquitetura**, **requisitos**, **modelagem UML** e **casos de uso completos**, acesse o PDF da documentação do projeto:
+O **AgendaBairro** visa solucionar problemas comuns em clínicas de bairro:
 
-➡️ **[Clique aqui para visualizar o PDF da Documentação Completa](./documentacao.pdf)**  
-*(Adicione o seu arquivo `.pdf` ao repositório e substitua o link acima pelo caminho correto.)*
+- 📉 **Reduzir no-show:** evitar horários vagos por faltas de pacientes.  
+- ⚡ **Agilizar atendimento:** menos trabalho manual e mais eficiência.  
+- 📊 **Tomar decisões baseadas em dados:** acompanhar ocupação, receita e gargalos.
+
+---
+
+## 🚀 Funcionalidades
+
+O sistema cobre toda a jornada do agendamento, do **marcação ao pós-consulta**:
+
+1. Agendamento online de consultas  
+2. Pré-check-in digital  
+3. Controle de agenda para profissionais  
+4. Histórico de consultas e prontuários  
+5. Emissão de atestados e prescrições digitais  
+6. Registro e controle de pagamentos  
+7. Lembretes automáticos  
+8. Geração de relatórios administrativos
+
+---
+
+## 🏗️ Documentação Completa
+
+Para detalhes sobre **arquitetura, requisitos, UML e casos de uso**, acesse o PDF do projeto:
+
+➡️ **[Documentação Completa](https://github.com/user-attachments/files/23137510/TRABALHO.DE.COMPOSICAO.DA.2.NOTA.-.APS.pdf)**
 
 ---
 
 ## 🏛️ Modelagem do Sistema (UML)
 
-A modelagem foi desenvolvida com base em boas práticas de **Análise e Projeto de Sistemas**, utilizando diagramas UML para representar os principais componentes.
+### 🧩 Diagrama de Casos de Uso
 
-### 🧩 Diagrama de Casos de Uso  
-Representa os principais fluxos de interação entre os atores do sistema (Paciente, Recepção, Profissional e Gestor).  
+Fluxos principais entre Paciente, Recepção, Profissional e Gestor:
 
-[./imagens/Image 24 de out. de 2025, 20_16_56.png  ](https://github.com/Giovanepg/AgendaBairro/blob/main/imagens/Image-24-de-out.-de-2025,20_16_56.png)
+![Diagrama de Casos de Uso](https://github.com/user-attachments/assets/28c9f83b-0923-46c3-bf82-af6fb35822d5)
 
----
+**Principais Casos de Uso:**
 
-### 🏥 Descrição dos Casos de Uso  
-
-| Nº | Caso de Uso | Atores | Descrição Resumida |
-|----|--------------|---------|--------------------|
-| 1 | **Agendar Consulta Online** | Paciente, Sistema | Permite o agendamento de consultas. |
-| 2 | **Realizar Pré-Check-in** | Paciente, Sistema | Confirmação e atualização de dados antes da consulta. |
-| 3 | **Visualizar Histórico de Consultas** | Paciente, Sistema | Exibe consultas anteriores do paciente. |
-| 4 | **Visualizar Agenda Própria** | Profissional, Sistema | Mostra a agenda de atendimentos do profissional. |
-| 5 | **Gerenciar Prontuário** | Profissional, Sistema | Consulta e atualização do prontuário eletrônico. |
-| 6 | **Gerar Atestado/Prescrição** | Profissional, Sistema | Emissão de documentos médicos digitais. |
-| 7 | **Receber Lembretes** | Recepção, Sistema | Recebe notificações automáticas de tarefas. |
-| 8 | **Registrar Pagamento** | Recepção, Sistema | Registra e controla pagamentos de consultas. |
-| 9 | **Visualizar Lista de Espera** | Recepção, Sistema | Gerencia pacientes aguardando atendimento. |
-| 10 | **Gerar Relatórios** | Gestor, Sistema | Gera relatórios operacionais e financeiros. |
-| 11 | **Enviar Lembretes Automáticos** | Sistema | Envio automático de notificações. |
+| Nº  | Caso de Uso                  | Atores             | Descrição |
+|-----|-------------------------------|------------------|-----------|
+| 1   | Agendar Consulta Online       | Paciente, Sistema | Agendamento de consultas |
+| 2   | Realizar Pré-Check-in         | Paciente, Sistema | Confirmação e atualização de dados |
+| 3   | Visualizar Histórico          | Paciente, Sistema | Consultas anteriores |
+| 4   | Visualizar Agenda             | Profissional, Sistema | Agenda do profissional |
+| 5   | Gerenciar Prontuário          | Profissional, Sistema | Consulta e atualização do prontuário |
+| 6   | Gerar Atestado/Prescrição     | Profissional, Sistema | Emissão de documentos digitais |
+| 7   | Receber Lembretes             | Recepção, Sistema | Notificações automáticas |
+| 8   | Registrar Pagamento           | Recepção, Sistema | Controle de pagamentos |
+| 9   | Visualizar Lista de Espera    | Recepção, Sistema | Pacientes aguardando atendimento |
+| 10  | Gerar Relatórios              | Gestor, Sistema   | Relatórios operacionais e financeiros |
+| 11  | Enviar Lembretes Automáticos  | Sistema           | Notificações automáticas |
 
 ---
 
-### 🧱 Diagrama de Classes  
-Representa a estrutura central do sistema, exibindo classes, atributos, métodos e relacionamentos principais.  
+### 🧱 Diagrama de Classes
 
-📷 *(Substitua pelo caminho da imagem — exemplo: `/imagens/diagrama-de-classes.png`)*  
+![Diagrama de Classes](https://github.com/user-attachments/assets/f71d333d-5ffa-491a-9434-b5b6b5d55dc1)
+
+Representa **classes, atributos, métodos e relacionamentos principais** do sistema.
 
 ---
 
 ## 📱 Protótipos de Tela (Wireframes)
 
-Uma visão geral da experiência do usuário nas principais interfaces do sistema:  
+### 🔐 Tela de Login
+![Login](https://github.com/user-attachments/assets/afc5f009-9d16-467e-9239-13ff9605dbbe)  
 
-### 🔐 Tela de Login  
-Interface de acesso com campos de e-mail e senha, além de opções de cadastro e recuperação de senha.  
-📷 *(Substitua pela imagem: `/imagens/login.png`)*  
+**Descrição:** Painel inicial com resumo de indicadores e acesso rápido às funcionalidades essenciais.
 
-### 🗓️ Tela da Agenda  
-Exibe calendário com consultas agendadas e detalhes do dia selecionado.  
-📷 *(Substitua pela imagem: `/imagens/agenda.png`)*  
+### 🗓️ Tela da Agenda
+![Agenda](https://github.com/user-attachments/assets/812544de-2837-4303-91b4-dc8400d976be)  
 
-### 📊 Dashboard  
-Visão geral com cards de métricas, consultas do dia, pacientes e gráficos de desempenho.  
-📷 *(Substitua pela imagem: `/imagens/dashboard.png`)*  
+**Descrição:** Visualização diária/semanal, com filtros e ações rápidas para gerenciar agendamentos.
 
-### 🧍 Cadastro de Paciente  
-Formulário completo para registro de novos pacientes (dados pessoais, contato e endereço).  
-📷 *(Substitua pela imagem: `/imagens/cadastro-paciente.png`)*  
+### 🧍 Portal do Paciente
+![Portal do Paciente](https://github.com/user-attachments/assets/6a06a3c6-089d-44b6-ba50-5d11034bfb7f)  
 
-## 🧠 Conclusão  
+**Descrição:** Registro de novos pacientes e agendamento simplificado por especialidade e profissional.
 
-O desenvolvimento do **AgendaBairro** proporcionou uma experiência prática na aplicação de conceitos de **análise e modelagem de software**, abrangendo desde o levantamento de requisitos até a prototipagem de interfaces.
+### 📋 Prontuário do Paciente
+![Prontuário](https://github.com/user-attachments/assets/6d121c28-06bb-4671-a4dd-84a065b5fb7f)  
 
-O projeto demonstra a importância da tecnologia como ferramenta de apoio à gestão em saúde, **reduzindo custos operacionais**, **melhorando a organização interna** e **aumentando a satisfação do paciente**.
+**Descrição:** Dados clínicos e administrativos, histórico, anexos, receitas e exames.
 
-Como **perspectivas futuras**, prevê-se:  
-- Integração com **plataformas de teleconsulta**;  
-- Comunicação automatizada com **convênios e operadoras de saúde**;  
-- Uso de **inteligência artificial** para prever faltas (no-show) e otimizar horários.  
+### 📊 Dashboard
+![Dashboard](https://github.com/user-attachments/assets/6d121c28-06bb-4671-a4dd-84a065b5fb7f)  
+
+**Descrição:** Indicadores de desempenho e gráficos para gestão estratégica da clínica.
 
 ---
 
-📘 **Desenvolvido por:** *Giovane Ferreira Paes Ribeiro*  
+## 🧠 Conclusão
+
+O **AgendaBairro** demonstrou a aplicação prática de conceitos de **análise e modelagem de software**, desde requisitos até prototipagem.  
+O sistema **reduz custos operacionais**, **melhora a organização interna** e **aumenta a satisfação do paciente**.
+
+**Futuro:**  
+- Integração com **teleconsulta**  
+- Comunicação automática com **convênios**  
+- Uso de **IA** para prever no-show e otimizar horários
+
+---
+
+📘 **Desenvolvido por:** Giovane Ferreira Paes Ribeiro  
 📍 **UNIFSA — Teresina/PI**  
-🗓️ *Ano: 2025*  
+🗓️ **Ano: 2025**
