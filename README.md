@@ -53,7 +53,7 @@ A modelagem foi desenvolvida com base em boas práticas de **Análise e Projeto 
 ### 🧩 Diagrama de Casos de Uso  
 Representa os principais fluxos de interação entre os atores do sistema (Paciente, Recepção, Profissional e Gestor).  
 
-📷 *(Substitua pelo caminho da imagem — exemplo: `/imagens/diagrama-casos-de-uso.png`)*  
+[./imagens/Image 24 de out. de 2025, 20_16_56.png  ](https://github.com/Giovanepg/AgendaBairro/blob/main/imagens/Image-24-de-out.-de-2025,20_16_56.png)
 
 ---
 
